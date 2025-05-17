@@ -40,7 +40,7 @@ This demo showcases a responsive carousel that maintains consistent minimum and 
 
 ## Live Demo
 
-[View the live demo](https://peek-carousel.vercel.app/)
+[View the live demo](https://demo-peek-carousel.vercel.app/)
 
 ## Technology Stack
 

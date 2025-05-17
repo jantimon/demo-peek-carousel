@@ -151,15 +151,16 @@ export default function Home() {
           text-align: center;
         `}
       >
-        <p>Built with Next.js and styled with next-yak</p>
-        <p
+        <p>Built with Next.js and next-yak</p>
+        <a
+          href="https://github.com/jantimon/demo-peek-carousel"
           css={css`
             font-family: var(--font-geist-mono);
             margin-top: 0.5rem;
           `}
         >
           github.com/jantimon/demo-peek-carousel
-        </p>
+        </a>
       </footer>
     </main>
   );
