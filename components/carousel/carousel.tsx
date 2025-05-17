@@ -23,7 +23,6 @@ export const CarouselSlide = ({
     <CarouselSlideWrapper
       style={{
         backgroundColor: color,
-        scrollSnapAlign: "start",
       }}
     >
       {children}
@@ -57,6 +56,7 @@ const CarouselSlideWrapper = styled.li`
   flex: 0 0 auto;
   overflow: hidden;
   width: var(--slide-width);
+  scroll-snap-align: start;
 `;
 
 const SlideButton = styled(ScrollBy)`
